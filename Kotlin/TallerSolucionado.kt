@@ -311,7 +311,7 @@ fun main(){
     /*
     * cambio
     */
-    assertEquals(28320000.0, convercion(10000.0, 2832.0))
+    assertEquals(3.531073446327684, convercion(10000.0, 2832.0))
     /*
     * volumencono
     */
@@ -371,10 +371,10 @@ fun main(){
     /*
     * timpos
     */
-    assertEquals(2, tiempo(50.0,100.0))
+    assertEquals(2.0, tiempo(50.0,100.0))
     /*
     * bequitas
     */
     assertEquals("2000.00", becas(19,95.0))
-    println("todos los problemas estan bien")
+    println("todos los problemas estan bien, ¡Estamos muy orgulloso de ti!")
 }
